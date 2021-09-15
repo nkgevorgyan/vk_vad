@@ -1,0 +1,7 @@
+h5py
+h5py_cache
+python_speech_features
+pydub
+webrtcvad
+SoundFile
+torch
