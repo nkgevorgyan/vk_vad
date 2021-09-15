@@ -45,8 +45,6 @@ noise_levels_db = {'None': None, '-15': -15, '-3': -3}
 
 mfcc_window_frame_size = 4
 
-#np.random.seed(1337)
-
 
 def add_noise(speech_frames, noise_frames, align_frames, noise_level_db):
     # Convert to tracks.

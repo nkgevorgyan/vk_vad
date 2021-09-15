@@ -55,13 +55,7 @@ class Dataset(torch.utils.data.Dataset):
             # Increment window using set step size
             i += self.step_size
 
-        # Load data and get label
-        #X = torch.from_numpy(np.array(x)).float().cpu()
-        #y = torch.from_numpy(np.array(y)).cpu()
-
         return x, y
-
-
 
 
 def get_dataset(noise='None', val=0.1, test=0.1):
