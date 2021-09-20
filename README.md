@@ -193,6 +193,8 @@ But since we have imballanced classes case, I decided to use also F1-score and R
 
 ## Evaluation on dev set
 
+Dev set after preprocessing: https://drive.google.com/file/d/1RO6xVUODr38EfRwrtLI_b_SQvFjLrNkY/view?usp=sharing
+
 1. Accuracy: **0.893**
 2. F1-score: **0.943**
 3. ROC-AUC : **0.587**
